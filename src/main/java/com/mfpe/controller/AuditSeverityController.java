@@ -41,7 +41,7 @@ public class AuditSeverityController {
 	 */
 	@GetMapping("/health-check")
 	public String healthCheck() {
-		return "Audit Severity Microservice is Active";
+		return "Making a change to test the peipeline";
 	}
 
 	// This is to check the severity of the audit and it returns the execution
