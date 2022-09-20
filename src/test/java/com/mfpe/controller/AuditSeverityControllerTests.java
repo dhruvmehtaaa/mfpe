@@ -47,7 +47,7 @@ class AuditSeverityControllerTests {
 
 	@Test
 	public void testAuditHealthCheck() {
-		assertEquals(severityController.healthCheck(), "Audit Severity Microservice is Active");
+		assertEquals(severityController.healthCheck(), "Making a change to test the peipeline");
 	}
 
 }
